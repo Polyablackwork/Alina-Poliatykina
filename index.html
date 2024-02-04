@@ -1,14 +1,107 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Додайте тут іконку для вашого сайту -->
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <title>Lesson 3 challenges</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <body>
+
+    <h2>Сторінка Вікіпедії для мови CSS</h2>
+
+    <!-- Вставте елемент iframe для сторінки Вікіпедії про мову CSS українською мовою -->
+    <iframe src="https://uk.wikipedia.org/wiki/CSS" title="Сторінка Вікіпедії для мови CSS" width="100%" height="600px"></iframe>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Paragraph</title>
+    <!-- Додайте елемент style -->
+    <style>
+        /* Визначте селектор p з властивістю color: red; */
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- Додайте елемент p з текстом This is my paragraph. -->
+    <!-- Визначте атрибут style для тега p зі значенням color: blue; -->
+    <p style="color: blue;">This is my paragraph.</p>
+
+    <!-- Який колір буде мати текст This is my paragraph і чому. -->
+    <!-- Текст отримає колір синього (blue), оскільки стилі, визначені непрямо в тегу p, переважають стилі, визначені в елементі style. -->
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exciting Paragraphs</title>
+    <style>
+        #boring {
+            color: #000; /* Чорний текст для звичайного абзацу */
+        }
+
+        #exciting {
+            background: #f69d3c;
+            border: 1px solid #696969;
+            padding: 10px;
+            color: #fff; /* Білий текст для зацікавленого абзацу */
+        }
+    </style>
+</head>
+<body>
+    <p id="boring">Звичайний, нудний абзац. Намагайтеся не заснути.</p>
+    <p id="exciting">The most exciting paragraph on the page. One of a kind!</p>
+    <div id="exciting-div">The most exciting paragraph on the page. One of a kind!</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3 challenges</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- Додайте тут елеиент style: -->
+    <style type="text/css">
+        body {
+            background: var(--bgColor);
+        }
+
+        div {
+            --bgColor: limegreen;
+        }
+
+        /*
+        Визначте для елементів p властивість фону таким чином:
+        background: var(--bgColor);
+        */
+        div p {
+            background: var(--bgColor);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Додайте тут 2 елеиенти div: -->
+    <div>
+        <h3>Div 1</h3>
+        <p>Paragraph 1</p>
+    </div>
+
+    <div>
+        <h3>Div 2</h3>
+        <p>Paragraph 2</p>
+    </div>
 
 </body>
 </html>
