@@ -1,51 +1,104 @@
-h1, h2, h3 {
-    color: rgb(120,120,120);
-}
-#main{
-    color: #e60202;
-}
-.h2{
-    color: red;
-}
-.heading {
-    color: green;
-}
-ul > li {
-    font-weight: bold;
-}
-section > p {
-    color: red;
-   }
-section p {
-    font-size: 40px;
-}
-.second {
-    color: indigo;
-    }
-p.first {
-    color: green;
-}
-p.first:visited {
-    background-color: rgb(255, 0, 0);
 
+h1,
+h2,
+h3 {
+  color: gray;
 }
-p.first:hover{
-    color: blue;
+
+#main {
+  color: #e60202;
 }
+
+.h2 {
+  color: red;
+}
+
+.heading {
+  color: green;
+}
+
+ul > li {
+  font-weight: bold;
+}
+
+section > p {
+  color: red;
+}
+
+section p {
+  font-size: 22px;
+}
+
+/* Завдання №4 перероблене */
+body > h2:first-of-type {
+  color: indigo;
+}
+
+p.first a {
+  color: green;
+}
+
+p .first a {
+  font-size: 24px;
+  text-decoration: none;
+  font-style: italic;
+}
+
 div ~ p {
-    color: salmon;
+  color: salmon;
 }
+
+/*
+Та завдання №5 
+
+Маємо іменовані кольори black, blue, green, red, white, yellow
+
+визначати ці кольори за допомогою шістнадцяткового коду: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+#000000
+#0000ff
+#00ff00
+#ff0000
+#ffffff
+#e1ff00
+
+визначати ці кольори у десятковій системі числення за допомогою функції RGB.
+rgb(0, 0, 0);
+rgb(0, 0, 255);
+rgb(0, 255, 0);
+rgb(255, 0, 0);
+rgb(255, 255, 255);
+rgb(225, 255, 0);
+
+визначати ці кольори, використовуючи відсотки.
+hsl(0, 0%, 0%);
+hsl(240, 100%, 50%);
+hsl(120, 100%, 25%);
+hsl(0, 100%, 50%);
+hsl(0, 0%, 100%);
+hsl(60, 100%, 50%);
+
+визначати ці кольори використовуючи альфа-канал, що задає прозорість.
+rgb(0 0 0 / 1);
+rgb(0 0 255 / 1);
+rgb(0 255 0 / 1);
+rgb(255 0 0 / 1);
+rgb(255 255 255 / 1);
+rgb(225 255 0 / 1);
+
+*/
+
 .translucent-box {
-    background: hsla(0, 100%, 50% , 0.5);
-    }
-:root {
-    font-size: 100%;
+  background-color: hsl(0deg, 100%, 50%);
+}
+
+html {
+  font-size: 100%;
 }
 
 body {
-        font-size: 140%;/* font-size: 22.4px;*/
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-.h1 {
-        font-size: 240%;/* font-size: 2em;*/
-    }
+  font-size: 1.4rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
