@@ -5,7 +5,7 @@ const BlogInfo = () => {
   const blogName = useContext(BlogContext);
 
   return (
-    <div className="px-8">
+    <div className="mb-8">
       <p>Hello!</p>
     </div>
   );
